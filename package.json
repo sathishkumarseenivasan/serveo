@@ -1,0 +1,30 @@
+{
+  "name": "serveo-bot-neural",
+  "version": "2.0.0",
+  "description": "AI-Powered Discord Server Builder with Neural Core Framework - A self-learning, adaptive server management system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/scripts/deploy-commands.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint src/",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["discord", "bot", "ai", "server-builder", "anthropic", "neural-network", "self-learning", "automation"],
+  "author": "Serveo Team",
+  "license": "MIT",
+  "dependencies": {
+    "anthropic": "^0.0.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "winston": "^3.17.0",
+    "node-cache": "^5.1.2",
+    "graphology": "^0.26.0",
+    "uuid": "^11.1.0",
+    "cron": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.29.0"
+  }
+}
